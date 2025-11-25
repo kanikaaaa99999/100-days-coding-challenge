@@ -1,0 +1,20 @@
+/*Assign explicit values starting from 10 and print them.*/
+#include <stdio.h>
+
+int main() {
+    int arr[5] = {10, 11, 12, 13, 14};  
+
+    for (int i = 0; i < 5; i++) {
+        printf("%d\n", arr[i]);
+    }
+
+    return 0;
+}
+/*
+10
+11
+12
+13
+14
+
+*/
