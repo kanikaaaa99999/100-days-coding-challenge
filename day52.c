@@ -17,8 +17,6 @@ int main() {
     }
     printf("Enter x: ");
     scanf("%d", &x);
-    
-    //  the index of ceil
     for (i = 0; i < n; i++) {
         if (arr[i] >= x) {
             index = i;
