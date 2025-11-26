@@ -9,7 +9,7 @@ int main() {
     printf("Enter how many numbers: ");
     scanf("%d", &n);
 
-    int nums[100], answer[100]; // lets keep max 100
+    int nums[100], answer[100]; 
     printf("Enter numbers: ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &nums[i]);
